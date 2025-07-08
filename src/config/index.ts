@@ -1,23 +1,23 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Syed Faizan — Full Stack Flutter Developer",
+  author: "Syed Faizan Rasool",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+      "Flutter developer based in Pakistan, specializing in cross-platform mobile and web applications with strong backend integration using PHP and MySQL. Experienced in building scalable, user-centric apps with modern UI/UX design principles.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/sf.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    // { text: "Twitter", href: "https://github.com/syed-faizan-rasool" },
+    // { text: "LinkedIn", href:"https://github.com/syed-faizan-rasool" },
+    { text: "Github", href: "https://github.com/syed-faizan-rasool" },
+    // { text: "Youtube", href: "https://github.com/syed-faizan-rasool" },
+    // { text: "Dribbble", href: "https://github.com/syed-faizan-rasool" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,73 +25,87 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Syed Faizan",
+    specialty: "Full Stack Flutter Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Flutter developer based in Pakistan, specializing in cross-platform mobile and web applications with strong backend integration using PHP and MySQL. Experienced in building scalable, user-centric apps with modern UI/UX design principles.",
+    email: "faizanworkx@gmail.com",
   },
-  experience: [
-    {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
-      summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
-      ],
-    },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
-  ],
-  projects: [
-    {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
-    },
-    {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
-    },
-  ],
-  about: {
-    description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+ experience: [
+  {
+    company: "Media Design Expert",
+    position: "Full Stack Flutter Developer",
+    startDate: "Jan 2025",
+    endDate: "Present",
+    summary: [
+      "Optimized overall app performance and user experience by applying advanced memory management and code refinement techniques.",
+      "Led a team in building and integrating scalable features using Jetpack components such as LiveData and ViewModel to ensure maintainable architecture.",
+    ],
+  },
+  {
+    company: "Solution Experts",
+    position: "Full Stack Flutter Developer",
+    startDate: "Jan 2024",
+    endDate: "Jan 2025",
+    summary: [
+      "Developed and maintained cross-platform applications using Flutter, ensuring consistent performance across Android and iOS.",
+      "Implemented biometric authentication and data encryption features to enhance user data security and build trust.",
+    ],
+  },
+],
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
-    image: "/alejandro-big.jpg",
+ projects: [
+  {
+    name: "Sparkify",
+    summary: "A business-influencer collaboration app allowing idea sharing, invites, and campaign management, built using Flutter with PHP & MySQL backend and Firestore for real-time sync.",
+    linkPreview: "https://github.com/syed-faizan-rasool/syed-faizan-rasool/blob/main/assets/dummy-video.mp4",
+    linkSource: "https://github.com/syed-faizan-rasool",
+    image: "/sparkfy.png",
+  },
+  {
+    name: "Mela",
+    summary: "An influencer-brand partnership app for promoting products and managing collaborations. Built with Flutter for UI and PHP & MySQL for backend.",
+    linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasool",
+    image: "/melaa.png",
+  },
+  {
+    name: "Hugh & Bucks",
+    summary: "A 3-sided app for community, customer, and vendor interaction, including sales, redemption, and QR-based transaction flow. Built using Flutter and PHP APIs.",
+    linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasool",
+    image: "/hb.png",
+  },
+  {
+    name: "Wearium",
+    summary: "A footwear e-commerce app with product browsing, cart, and order tracking using Flutter and Firebase Firestore.",
+    linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasool",
+    image: "/wear.png",
+  },
+  {
+    name: "Fitness Pro",
+    summary: "A gym fitness app with workout plans, exercise tutorials, and progress tracking. Built with Flutter and Firebase Firestore for real-time features.",
+    linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasool",
+    image: "/fitpro.png",
+  },
+  {
+    name: "HealthPill App",
+    summary: "HealthPill is a Flutter-based pharmacy app with four user roles: customer, doctor, pharmacy, and delivery boy.It enables easy medicine ordering, inventory management, prescriptions, and doorstep delivery in one seamless system.",
+    linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasool",
+    image: "/hp.png",
+  },
+],
+  about: {
+   description: `
+  Hi, I’m Faizan, a Full Stack Flutter Developer with a strong focus on mobile and web app development. I specialize in building scalable, user-centric solutions across Android, iOS, and web platforms using Flutter, PHP , MySQL, and Firebase.
+
+  I’ve worked on a range of impactful applications including influencer-brand collaboration platforms, e-commerce apps, and healthcare solutions. My strength lies in merging design with functionality — ensuring smooth user experiences, robust backend integration, and performance-driven results. Always exploring new ideas, I bring both technical expertise and product thinking to every project.
+`,
+
+    image: "/faizan.png",
   },
 };
 
