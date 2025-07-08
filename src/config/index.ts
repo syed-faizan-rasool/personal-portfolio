@@ -58,7 +58,7 @@ export const SITE_CONTENT: SiteContent = {
   {
     name: "Sparkify",
     summary: "A business-influencer collaboration app allowing idea sharing, invites, and campaign management, built using Flutter with PHP & MySQL backend and Firestore for real-time sync.",
-    linkPreview: "",
+    linkPreview: "https://github.com/syed-faizan-rasool/personal-portfolio/blob/main/public/dummy-video%20(1).gif",
     linkSource: "https://github.com/syed-faizan-rasool",
     image: "/sparkfy.png",
   },
