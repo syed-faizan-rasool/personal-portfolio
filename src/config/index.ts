@@ -20,7 +20,7 @@ export const SITE_CONFIG: SiteConfig = {
     // { text: "Dribbble", href: "https://github.com/syed-faizan-rasool" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://syed-faizan-portfolio.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -58,43 +58,43 @@ export const SITE_CONTENT: SiteContent = {
   {
     name: "Sparkify",
     summary: "A business-influencer collaboration app allowing idea sharing, invites, and campaign management, built using Flutter with PHP & MySQL backend and Firestore for real-time sync.",
-    linkPreview: "https://github.com/syed-faizan-rasool/personal-portfolio/blob/main/public/dummy-video%20(1).gif",
-    linkSource: "https://github.com/syed-faizan-rasool",
+    // linkPreview: "https://github.com/syed-faizan-rasool/personal-portfolio/blob/main/public/dummy-video%20(1).gif",
+    linkSource: "https://github.com/syed-faizan-rasool?tab=repositories",
     image: "/sparkfy.png",
   },
   {
     name: "Mela",
     summary: "An influencer-brand partnership app for promoting products and managing collaborations. Built with Flutter for UI and PHP & MySQL for backend.",
-    linkPreview: "/",
-    linkSource: "https://github.com/syed-faizan-rasool",
+    // linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasool?tab=repositories",
     image: "/melaa.png",
   },
   {
     name: "Hugh & Bucks",
     summary: "A 3-sided app for community, customer, and vendor interaction, including sales, redemption, and QR-based transaction flow. Built using Flutter and PHP APIs.",
-    linkPreview: "/",
-    linkSource: "https://github.com/syed-faizan-rasool",
+    // linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasoo?tab=repositoriesl",
     image: "/hb.png",
   },
   {
     name: "Wearium",
     summary: "A footwear e-commerce app with product browsing, cart, and order tracking using Flutter and Firebase Firestore.",
-    linkPreview: "/",
-    linkSource: "https://github.com/syed-faizan-rasool",
+    // linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasool?tab=repositories",
     image: "/wear.png",
   },
   {
     name: "Fitness Pro",
     summary: "A gym fitness app with workout plans, exercise tutorials, and progress tracking. Built with Flutter and Firebase Firestore for real-time features.",
-    linkPreview: "/",
-    linkSource: "https://github.com/syed-faizan-rasool",
+    // linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasool?tab=repositories",
     image: "/fitpro.png",
   },
   {
     name: "HealthPill App",
     summary: "HealthPill is a Flutter-based pharmacy app with four user roles: customer, doctor, pharmacy, and delivery boy.It enables easy medicine ordering, inventory management, prescriptions, and doorstep delivery in one seamless system.",
-    linkPreview: "/",
-    linkSource: "https://github.com/syed-faizan-rasool",
+    // linkPreview: "/",
+    linkSource: "https://github.com/syed-faizan-rasool?tab=repositories",
     image: "/hp.png",
   },
 ],
@@ -108,5 +108,11 @@ export const SITE_CONTENT: SiteContent = {
     image: "/faizan.png",
   },
 };
-
+  //  <a
+  //                 href={linkPreview}
+  //                 target="_blank"
+  //                 class="after:relative after:bottom-[-5px] after:content-[url(/external.svg)] hover:underline"
+  //               >
+  //                 Preview
+  //               </a>
 // #5755ff
